@@ -62,11 +62,11 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  font-weight: var(--medium);
+  font-weight: var(--bold);
 }
 
 ul {
@@ -780,7 +780,7 @@ section {
   .footer > .container {
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 108px;
+    width: 584px;
     column-gap: 24px;
     row-gap: 72px;
   }
@@ -802,6 +802,7 @@ section {
     padding: 100px 0;
   }
   .footer > .container {
+    width: auto;
     flex-wrap: nowrap;
     column-gap: 0;
     padding-left: 15px;
